@@ -4,7 +4,7 @@ import mysql.connector # Importando as classes (módulos) mysql e connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="pass123",
+    password="pass123", # Substitua pela senha que você criou na instalação do MySQL
     #database="db_dio_santander_bootcamp"
 )
 
