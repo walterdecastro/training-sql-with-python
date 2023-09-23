@@ -5,3 +5,12 @@
  <p align="center">
    <img src="https://www.learntek.org/blog/wp-content/uploads/2019/06/Mysql-python.png" alt="Python e MySQL"
  </p>
+  
+### Instruções gerais
+- [Baixe o Python](https://www.python.org/downloads/)
+- [Baixe o MySQL](https://www.mysql.com/downloads/)
+
+No terminal
+```
+pip install mysql-connector-python
+```
