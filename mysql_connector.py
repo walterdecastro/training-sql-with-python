@@ -5,7 +5,7 @@ mydb = mysql.connector.connect(
     host="localhost",
     user="root",
     password="pass123", # Substitua pela senha que você criou na instalação do MySQL
-    #database="db_dio_santander_bootcamp"
+    database="db_dio_santander_bootcamp"
 )
 
 
@@ -14,7 +14,7 @@ mycursor = mydb.cursor()
 
 # Através do do método execute() do connector podemos passar uma string como parâmetro com as querys que queremos solicitar ao SGBD. Comente o código após executado e descomente o parâmetro database="db_dio_santander_bootcamp" do objeto mydb
 """mycursor.execute(
-    "CREATE DATABASE db_dio_santander_bootcamp"
+    "SHOW ENGINES"
 )"""
 
 # Ao executarmos o comando abaixo podemos listar todas as databases do nosso SGBD. Por padrão, o MySQL cria alguns databases para o proprio uso do sistema
